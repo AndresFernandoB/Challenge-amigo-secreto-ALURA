@@ -6,5 +6,5 @@
 
 <h4>Funcionalidades<h4>
 
-![alt text](image.png)
+![Pantallazo](assets/image.png)
 
