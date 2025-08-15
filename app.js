@@ -8,7 +8,7 @@ function limpiar() {
 function agregarAmigo() {
     let nombreAmigo = document.getElementById('amigo').value.trim();
     // Verificación si está vacío o contiene números con operador lógico (or ||) y expresión regular para incluir solo letras a-zA-Z y letras acentuadas À-ÿ
-    if (nombreAmigo === '' || !/^[a-zA-ZÀ-ÿñÑ]+$/.test(nombreAmigo)) { 
+    if (nombreAmigo === '' || !/^[a-zA-ZÀ-ÿñÑ\s]+$/.test(nombreAmigo)) { 
         alert('El nombre no puede estar vacío ni contener números o caracteres especiales.');
         return;
     }
